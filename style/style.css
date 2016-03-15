@@ -53,6 +53,7 @@ a{
 /* body */
 body{
     background-color: #dedede;
+    font-family:"Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;
 }
 
 /* header */
@@ -87,5 +88,19 @@ nav ul li a {
 /* main */
 main article{
     margin: 20px 20px 0;
+    padding: 40px 20px;
     background-color: #fff;
+
+}
+main article h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+main article h3{
+    color: #666;
+    font-size: 16px;
+}
+main header p{
+    color:#999;
+    font-size: 12px;
 }
