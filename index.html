@@ -9,8 +9,7 @@
 <body>
 <header class="header">
     <h1><a href="#" title="logo" id="logo"><img src="images/bd_logo.png" height="40"></a></h1>
-</header>
-<nav>
+    <nav>
     <ul>
         <li><a href="#">导航链接一</a></li>
         <li><a href="#">导航链接二</a></li>
@@ -18,6 +17,8 @@
         <li><a href="#">导航链接四</a></li>
     </ul>
 </nav>
+</header>
+
 <main>
     <article>
         <header>
@@ -153,34 +154,34 @@
 <aside>
     <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
     <div>
-        <div>请输入邮箱地址</div>
+        <div class="title1">请输入邮箱地址</div>
         <div>
             <input class="ipt" type="email" name="email" placeholder="这是一个文本输入框">
             <div class="tips">邮箱地址请按照要求格式输入</div>
         </div>
     </div>
     <div>
-        <div>请输入密码</div>
+        <div class="title1">请输入密码</div>
         <div>
             <input class="ipt" type="password" name="pwd1" placeholder="这是一个文本输入框">
         </div>
     </div>
     <div>
-        <div>请重复输入密码</div>
+        <div class="title1">请重复输入密码</div>
         <div>
             <input class="ipt" type="password" name="pwd2" placeholder="这是一个文本输入框">
             <div class="tips">密码请为6-16位英文数字</div>
         </div>
     </div>
     <div>
-        <div>性别</div>
+        <div class="title2">性别</div>
         <div>
             <input type="radio" name="gender" value="male" id="male"><label for="male">男</label>
             <input type="radio" name="gender" value="female" id="female" checked="checked"><label for="female">女</label>
         </div>
     </div>
     <div>
-        <div>城市</div>
+        <div class="title2">城市</div>
         <div>
             <select name="city">
                 <option value="bj">北京</option>
@@ -191,7 +192,7 @@
         </div>
     </div>
     <div>
-        <div>爱好</div>
+        <div class="title2">爱好</div>
         <div>
             <input type="checkbox" name="hobby" value="sports" id="sports"><label for="sports">运动</label>
             <input type="checkbox" name="hobby" value="arts" id="arts"><label for="arts">艺术</label>
@@ -199,9 +200,9 @@
         </div>
     </div>
     <div>
-        <div class="selfDes">个人描述</div>
+        <div class="title2 selfDes">个人描述</div>
         <div>
-            <textarea rows="10" cols="50" name="self-description" placeholder="这是一个多行输入框，输入您的个人描述" id="self-description"></textarea>
+            <textarea rows="10" cols="32" name="self-description" placeholder="这是一个多行输入框，输入您的个人描述" id="self-description"></textarea>
         </div>
     </div>
     <input class="submit" type="submit" value="确认提交">
